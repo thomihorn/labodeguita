@@ -1,0 +1,265 @@
+h1 {
+    color: #ffffff;
+    font-family: 'Capriola', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    word-spacing: 3pt;
+
+}
+
+a {
+    color:#226480;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+
+p {
+    font-family: 'Capriola', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+h4 {
+    color:  rgb(255, 255, 255);
+    font-family:'Capriola', sans-serif ;
+    
+}    
+
+header {
+    background-image: url(../imagenes/fondonav16.jpg);
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+    word-spacing: 70pt;
+       
+}
+
+header img {
+    margin-top: -30px;
+    height: 130px;
+}
+
+header nav {
+    margin: 25px;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(16,16,22,1) 0%, rgba(81,81,88,1) 76%, rgba(123,140,144,1) 100%);
+}
+
+
+#main-index {
+
+    height: 400px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+
+#main-index section {
+    font-size: 20px;
+    margin: 150px;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+#main-index p {
+    margin: 10px;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+}
+
+.main-cerve {
+    height: 400px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+
+#main-vino {
+    height: 400px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.main-espi {
+    height: 400px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#main-contact {
+    margin: 100px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+
+#foot-pag {
+    background-color: rgba(14, 12, 12, 0.61);
+    font-family:'Capriola', sans-serif ;
+    color:#0a0303;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+    
+.logo1 {
+    height: 150px;
+    width: 150px;
+}
+
+.logo12 {
+    height: 150px;
+    width: 150px;
+    transform: translate(340px, -180px);
+}
+
+
+.nav1 a {
+    margin: 10px;
+    color: #279123;
+    background-color: linear-gradient(90deg, rgba(16,16,22,1) 0%, rgba(81,81,88,1) 76%, rgba(123,140,144,1) 100%);
+    border: 1px solid #a9bdca;
+    border-radius: 4px;
+    padding: 2px 10px 10px 10px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 25px;
+    text-decoration: none;
+    
+  
+    box-shadow: 0 0 4px #999;
+    outline: none;
+    background-position: center;
+    transition: background 0.8s;
+}
+.nav1 a:hover{
+    background: #36ac32 radial-gradient(circle, transparent 1%, #3c3e3f 1%)
+     center/15000%;
+    color: rgb(253, 253, 253);
+}
+  
+.nav1 a:active{
+    background-color: #292d3e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+.red1 {
+color: #1D9AF2;
+background-color:rgb(57, 63, 63);
+border: 1px solid #9cadb9;
+border-radius: 2px;
+padding: 0 10px;
+cursor: pointer;
+height: 40px;
+font-size:14px;
+transition: all 0.2s ease-in-out;
+list-style: none;
+}
+
+.red1:hover {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swing {
+    15% {
+    transform: translateX(5px);
+    }
+    30% {
+    transform: translateX(-5px);
+    }
+    50% {
+    transform: translateX(3px);
+    }
+    65% {
+    transform: translateX(-3px);
+    }
+    80% {
+    transform: translateX(2px);
+    }
+    100% {
+    transform: translateX(0);
+    } 
+}
+
+.carousel {
+    height: 350px;
+    width: 350px;
+}
+
+
+span {
+    font-family: 'Capriola', sans-serif;
+    color: white;
+}
+
+.div-contact {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+@media only screen and (min-width: 400px) {
+    .nav1 a {
+        margin: 10px;
+        color: #279123;
+        background-color: linear-gradient(90deg, rgba(16,16,22,1) 0%, rgba(81,81,88,1) 76%, rgba(123,140,144,1) 100%);
+        border: 1px solid #a9bdca;
+        border-radius: 4px;
+        padding: 2px 10px 10px 10px;
+        cursor: pointer;
+        height: 32px;
+        font-size: 25px;
+        text-decoration: none;
+        
+      
+        box-shadow: 0 0 4px #999;
+        outline: none;
+        background-position: center;
+        transition: background 0.8s;
+    }
+    .nav1 a:hover{
+        background: #36ac32 radial-gradient(circle, transparent 1%, #3c3e3f 1%)
+         center/15000%;
+        color: rgb(253, 253, 253);
+    }
+      
+    .nav1 a:active{
+        background-color: #292d3e;
+        background-size: 100%;
+        transition: background 0s;
+    }
+
+}
+
+
+
+
+
